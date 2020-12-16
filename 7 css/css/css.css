@@ -1,0 +1,136 @@
+body {
+  background-image:url('../images/bg1.png');
+  z-index: 0;
+  height: 1080px;
+}
+
+.lapas {
+  width: 800px;
+  height: 1000px;
+  padding: 0;
+  position: relative;
+  left: calc(50% - 400px);
+  top: calc(50% - 500px);
+  z-index: 1;
+  background: white;
+  -webkit-box-shadow: 0px 0px 4px 9px rgba(173,173,173,0.58);
+  font-family: open sans;
+  color: #737373;
+}
+
+.lapoVirsausPaveikslas {
+  background-image: url('../images/bg2.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 800px;
+  height: 600px;
+  position: relative;
+  top: 0;
+  z-index: 2;
+}
+
+.lapoApaciosPaveikslas {
+  background-image: url('../images/bg3.png');
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 800px;
+  height: 400px;
+  position: relative;
+  bottom: 0;
+  z-index: 2;
+}
+
+.logo {
+  width: 220px;
+  height: 220px;
+  padding: 0;
+  position: relative;
+  top: 50px;
+  left: 70px;
+  z-index: 3;
+}
+
+.contacts {
+  width: 250px;
+  height: 200px;
+  padding: 0;
+  position: absolute;
+  top: 90px;
+  left: 500px;
+  z-index: 4;
+}
+
+.contactData {
+  list-style-type: none;
+  text-align: right;
+  position: relative;
+  right: 40px;
+  line-height: 40px;
+}
+
+.placeLogo {
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+.webLogo {
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 60px;
+}
+
+.emailLogo {
+  float: left;
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+
+.phoneLogo {
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 140px;
+}
+
+.text {
+  width: 700px;
+  height: 400px;
+  margin: 0 50px 0 50px;
+  position: relative;
+  top: 100px;
+  z-index: 3;
+}
+
+.h {
+  text-decoration: underline;
+  text-decoration-color: #00aaff;
+  text-decoration-thickness: 4px;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+.hline {
+  color: #00aaff;
+}
+
+.bruksnys {
+  border-top: solid #00aaff 4px;
+  width: 347px;
+}
+
+.signature {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  left: 50px;
+  bottom: 230px;
+  z-index: 4;
+  font-size: 45px;
+  font-family: great vibes;
+}
